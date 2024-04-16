@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.description.DescriptionFragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#F2E5D3">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_details_catalog"
@@ -25,7 +26,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/baseline_home_24"
-        android:contentDescription="#5C7650"
+        android:contentDescription="#027A76"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TouchTargetSizeCheck"/>
